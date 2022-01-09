@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+#container {
+    height: 200px;
+    width: 500px;
+    border: 3px dashed black;
+    margin: auto;
+    margin-top: 5vh;
+    box-shadow: 0 5px 50px -4px black;
+}
+
+h1 {
+    margin-top: 20vh;
+    text-align: center;
+    color: black;
+}
+
+#number {
+    height: 25px;
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    background: none;
+}
+
+.button {
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+    background: none;
+    color: black;
+    border-width: 2px;
+    border-style: dashed; 
+    border-color: black;
+    transition: 0.5s
+}
+
+button:hover {
+    color: white;
+    box-shadow: 0 5px 50px -4px black;
+    transform: translateY(-10px);
+    border-color: black;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<script type="module" src="script.js"></script>
+	</head>
+
+	<body>
+		<form action="https://www.google.com/search">
+			<div class="hero">
+				<div id="search-box">
+					<img id="google-icon" src="https://speedyrose82.qoom.space/Google/icons8-google-240.png">
+					<input type="text" placeholder="Search Google" name="q">
+					<img id="mic-icon" src="https://speedyrose82.qoom.space/Google/Google_mic.svg.png">
+				</div>
+			</div>
+		</form>
+		<script>
+			var searchBox = document.getElementById("search-box");
+			var googleIcon = document.getElementById("google-icon");
+
+			googleIcon.onclick = function () {
+				searchBox.classList.toggle("active");
+			}
+		</script>
+
+
+	</body>
+
+</html>
